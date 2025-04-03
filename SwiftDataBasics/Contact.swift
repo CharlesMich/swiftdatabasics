@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import SwiftData
 
-final class Contact {
+@Model final class Contact {
     var firstName: String
     var lastName: String
     var phoneNumber: String
